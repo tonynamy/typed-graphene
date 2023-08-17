@@ -6,7 +6,7 @@ with open("README.md", encoding="utf-8") as f:
 setup(
     name="typed_graphene",
     packages=find_packages(include=["typed_graphene", "typed_graphene.*"]),
-    version="0.0.2",
+    version="0.0.3",
     description="Type-safe interface for graphene-python.",
     long_description=long_description,
     long_description_content_type="text/markdown",
